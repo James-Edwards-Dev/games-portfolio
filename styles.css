@@ -63,4 +63,10 @@ h2 {
     background-color: var(--secondary-bright);
     padding: 1rem;
     text-decoration: none;
+    transition: background-color 0.2s ease-in, box-shadow 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: var(--secondary-muted);
+    box-shadow: 0 4px 12px var(--secondary-muted);
 }
