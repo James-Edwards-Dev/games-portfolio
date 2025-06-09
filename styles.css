@@ -44,12 +44,12 @@ h2 {
     }
     a {
         margin: 2rem auto;
-        background-color: #0fd977;
-        color: white;
-        text-decoration: none;
         width: fit-content;
-        padding: 1rem;
     }
 }
 
-
+.button{
+    background-color: #0fd977;
+    padding: 1rem;
+    text-decoration: none;
+}
