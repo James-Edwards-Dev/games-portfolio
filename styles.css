@@ -1,10 +1,21 @@
+:root {
+    /* Background Colours */
+    --bg-standard:  #181818;
+    --bg-dark:      #121212;
+    --bg-light:     #2C2C2C;
+
+    /* Secondary Colours */
+    --secondary-bright:  #0fd977;
+    --secondary-muted:   #12B392;
+}
+
 * {
     margin: 0;
     max-width: 100%;
     color: white;
 }
 body {
-    background-color: #121212;
+    background-color: var(--bg-standard);
     font-family:Arial, Helvetica, sans-serif
 }
 h1 {
@@ -21,9 +32,9 @@ h2 {
     justify-content:  center;
     gap: 1rem;
     padding: 50px;
-    border-bottom: solid #12B392 0.1rem;
+    border-bottom: solid var(--secondary-muted) 0.1rem;
 
-    background: #121212;
+    background: var(--bg-standard);
     background: linear-gradient(23deg, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 1) 55%, rgba(16, 158, 130, 1) 72%, rgba(12, 176, 97, 1) 84%, rgba(15, 217, 119, 1) 96%);
 
     img {
@@ -43,13 +54,13 @@ h2 {
         }
     }
     a {
-        margin: 2rem auto;
+        margin: 1.5rem 0;
         width: fit-content;
     }
 }
 
 .button{
-    background-color: #0fd977;
+    background-color: var(--secondary-bright);
     padding: 1rem;
     text-decoration: none;
 }
