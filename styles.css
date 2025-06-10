@@ -86,13 +86,14 @@ h2 {
     margin-top: 1rem;
     background-color: var(--bg-dark);
     display: flex;
-    justify-content: space-between;
     gap: 0.5rem;
     flex-wrap: wrap;
 
     span{
+        flex-grow: 1;
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         gap: 0.5rem;
         background-color: var(--bg-light);
         padding: 0.5rem 1rem;
