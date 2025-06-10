@@ -69,6 +69,7 @@ h2 {
 /* Button Styling*/
 
 .button{
+    color: black;
     background-color: var(--secondary-bright);
     padding: 1rem;
     text-decoration: none;
@@ -81,6 +82,7 @@ h2 {
 }
 
 .github_link {
+    color: white;
     padding: 0.25rem 0;
     display: flex;
     align-items: center;
