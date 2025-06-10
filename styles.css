@@ -74,6 +74,16 @@ h2 {
     box-shadow: 0 4px 12px var(--secondary-muted);
 }
 
+.github_link {
+    padding: 0.25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: black;
+
+}
+
 .skills {
     margin: 2rem 5vw;
     background-color: var(--bg-dark);
@@ -103,5 +113,59 @@ h2 {
 
     img{
         width: 2.5rem;
+    }
+}
+
+.projects{
+    margin: 2rem 5vw;
+}
+
+.projects-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.project-card{
+    border: solid var(--secondary-muted) 0.1rem;
+    p {
+        padding: 0.5rem 1rem 1.5rem;
+    }
+}
+
+.project-skills{
+    display: flex;
+    margin-top: -3.25rem;
+    span{
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background-color: var(--bg-light);
+        padding: 0.25rem 0.25rem;
+    }
+    span:last-of-type{
+        border-top-right-radius: 1rem;
+    }
+    img{
+        width: 2.5rem;
+    }
+}
+
+.project-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    img {
+        width: 3rem;
+    }
+    .button {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .github_link{
+        flex: 1
     }
 }
