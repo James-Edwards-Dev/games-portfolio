@@ -173,6 +173,7 @@ h2 {
         aspect-ratio: 1 / 1;
         border-radius: 1.5rem;
         object-fit: cover;
+        border: var(--bg-dark) 0.2rem solid;
     }
 }
 
