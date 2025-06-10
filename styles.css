@@ -317,3 +317,37 @@ h2 {
         border: solid 0.1rem white;
     }
 }
+
+/* Certification Styling*/
+
+.certifications {
+    margin: 2rem 5vw;
+    padding: 1rem;
+
+    background-color: var(--bg-dark);
+    border: solid var(--secondary-muted) 0.1rem;
+    border-radius: 1rem;
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+.certification-area{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border: solid var(--secondary-muted) 0.1rem;
+    border-radius: 1rem;
+
+    .cert{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        aspect-ratio: 1 / 1;
+        max-width: 150px;
+    }
+}
