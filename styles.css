@@ -1,3 +1,4 @@
+/* Colour Variables */
 :root {
     /* Background Colours */
     --bg-standard:      #181818;
@@ -23,7 +24,7 @@ body {
     background-color: var(--bg-standard);
     font-family:Arial, Helvetica, sans-serif
 }
-p {
+p, a{
     font-size: 1.1rem;
 }
 h1 {
@@ -211,10 +212,10 @@ section {
     }
     span:first-of-type{
         padding-left: 0.75rem;
-        border-bottom-left-radius: 1rem;
+        border-bottom-left-radius: 1.5rem;
     }
     span:last-of-type{
-        border-top-right-radius: 1rem;
+        border-top-right-radius: 1.5rem;
         padding-right: 0.75rem;
     }
     img{
@@ -316,7 +317,7 @@ section {
         height: fit-content;
         margin-top: auto;
         padding: 0.5rem;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         border: solid 0.1rem white;
     }
 }
@@ -328,7 +329,7 @@ section {
 
     background-color: var(--bg-dark);
     border: solid var(--secondary-muted) 0.1rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     h2 {
         margin-bottom: 1rem;
     }
@@ -341,7 +342,7 @@ section {
     padding: 1rem;
     background-color: var(--bg-light);
     border: solid var(--secondary-muted) 0.1rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
 
     .cert{
         display: flex;
