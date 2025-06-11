@@ -10,7 +10,7 @@
     --secondary-muted:  #12B392;
 
     /* Tertiary Colours */
-    --tertiary-standard:#9125cf;
+    --purple:#9125cf;
 }
 
 /* General Element Styling */
@@ -253,7 +253,7 @@ section {
 /* Education Styling */
 
 .education {
-    border: solid 0.1rem var(--tertiary-standard);
+    border: solid 0.1rem var(--purple);
     border-radius: 1.5rem;
     background-color: var(--bg-dark);
     padding: 1rem;
@@ -265,7 +265,7 @@ section {
 
 .education-container{
     background-color: var(--bg-light);
-    border: solid 0.1rem var(--tertiary-standard);
+    border: solid 0.1rem var(--purple);
     border-radius: 1.5rem;
     padding: 1rem;
 }
@@ -297,7 +297,7 @@ section {
         margin: auto;
     }
     a {
-        color: var(--tertiary-standard);
+        color: var(--purple);
     }
 
     .bcs-image {
