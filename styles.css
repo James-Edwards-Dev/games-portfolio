@@ -40,6 +40,14 @@ section {
     margin: 2rem 10vw;
 }
 
+/* Footer Styling */
+
+footer {
+    background: var(--bg-dark);
+    border-top: var(--secondary-muted) solid 0.1rem;
+    min-height: 25vw;
+    margin-top: 4rem;
+}
 
 /* Hero Styling */
 
