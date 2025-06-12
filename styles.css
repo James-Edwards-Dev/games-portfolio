@@ -45,8 +45,22 @@ section {
 footer {
     background: var(--bg-dark);
     border-top: var(--secondary-muted) solid 0.1rem;
-    min-height: 25vw;
+    min-height: 30vw;
     margin-top: 4rem;
+}
+
+footer > section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    li {
+        margin-bottom: 0.25rem;
+    }
+    h2 {
+        margin-bottom: 0.5rem;
+    }
 }
 
 /* Hero Styling */
