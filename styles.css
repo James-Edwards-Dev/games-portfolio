@@ -32,6 +32,7 @@ body {
 }
 p, a{
     font-size: 1.1rem;
+    letter-spacing: 0.01rem;
 }
 h1 {
     font-size: 2.5rem;
@@ -432,5 +433,39 @@ footer > section {
     }
     img {
         max-width: 50px;
+    }
+}
+
+/* Projects Page */
+.main-video {
+    max-width: 100%;
+    margin: 2rem auto;
+    /*border: 0.1rem solid var(--secondary-muted);*/
+    border-radius: 1rem;
+}
+
+.projects-page {
+    background: #2C2C2C;
+    background: linear-gradient(31deg,rgba(44, 44, 44, 1) 0%, rgba(48, 48, 48, 1) 100%);
+
+    margin: 0 10vw;
+    section {
+        margin: 0 auto;
+        padding: 4rem;
+        background: var(--bg-dark);
+        min-height: 100svh;
+        max-width: 1000px;
+    }
+    h1 {
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem
+    }
+    p {
+        font-size: 1.15rem;
+        margin: 0.25rem 0 1.5rem;
     }
 }

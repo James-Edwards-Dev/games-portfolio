@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>James Edwards - Prototype Runner</title>
+</head>
+<body class="projects-page">
+    <section>
+        <h1>Prototype Runner</h1>
+        <video autoplay muted loop class="main-video">
+            <source src="content/videos/Prototype_Runner_Gameplay_Small_Cropped.mp4">
+        </video>
+        <article>
+            <h2>Introduction</h2>
+            <p>This Project was created in during my second year at Edge Hill University while completing a module called 'Games Engines' (CIS2150). The main goal of this module was develop an understanding of the role that game engine play in development of 3D video games and to be able to create an small game that makes use of some of the features available in the Unity game engine.</p>
+            <p>This module allowed me to develop a great understanding of C# as it was my first time programming using this language, as up to this point I had only been using Python and Java at University. Additionally, I was able to get a good understanding of how games engines such as Unity work as I hadn't used Unity before either.</p>
+
+            <h2>Character Controller</h2>
+            <p>During this project I implemented a Rigid body based character controller. This character controller included advanced movement mechanics such as Sprinting, Wall running, Crouching and Sliding.</p>
+            <p>Additionally, the character controller was able to interact with Jump Pads and Boost Pads that where played though out the levels in the game.</p>
+
+            <h2>Combat</h2>
+            <p>Weapons placed in levels can be picked up by the player. While there is only 1 weapon type in the game it would be easy to implement more via polymorphism.</p>
+
+            <h2>Enemies</h2>
+            <p>The enemies use unity NavMesh for their pathfinding. They have 3 states Attacking, Chasing and Idle. During the Idle state the enemy can either stand in one spot or patrol between points of the map. During the phase state the enemy will run after the player and transition into the Attacking state when they can see the player or transition into the idle state if they have been chasing them for too long. During the Attacking state the enemy will shoot at the player.</p>
+            <p>Some levels in the game require a group of enemies to be defeated in order to progress.</p>
+
+            <h2>UI and High Scores</h2>
+            <p>This game has a fully functioning main menu witch includes a settings menu and a level select screen. Additionally, when playing the game there is a timer that shows the current time since the start of the level and their is a pause menu that can be accessed by clicking escape. Finally, there is a level complete menu that will appear when the player finishes a level.</p>
+            <p>The high score of each level is tracked and saved onto the players PC. This high score is overwritten when the player completes a level faster than their previous high score.</p>
+
+            <h2>Levels</h2>
+            <p>There are 5 main levels in the game. These levels where created using ProBuilder and use all the mechanics that where discussed previously in on this page.</p>
+
+            <h2>Summary</h2>
+            <p>This project was created for a module in my second year at Edge Hill University called 'Games Engines' (CIS2150). I created a first person movement shooter that has 5 levels and uses a Rigidbody based character controller. I achieved a mark of 91% in this coursework contributed to me achieving a 85% in this module. Additionally, during this work I was able to get strong skills in Unity and C#. Below this text is some of the feedback I was given on the coursework by my lecturer </p>
+            <p>"Your game and code are excellent, you have included efficient code that is well-commented. You have made use of many engine features and included advanced mechanics within your game such as weapons and a workable UI. Well done."</p>
+        </article>
+    </section>
+</body>
+</html>
