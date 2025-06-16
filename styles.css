@@ -488,10 +488,11 @@ footer > section {
 
 /* Projects Page */
 .main-video {
-    max-width: 100%;
+    width: 100%;
     margin: 2rem auto;
     /*border: 0.1rem solid var(--secondary-muted);*/
     border-radius: 1rem;
+    aspect-ratio: 16 / 9;
 }
 
 .projects-page {
