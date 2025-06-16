@@ -514,6 +514,10 @@ footer > section {
     h2 {
         font-size: 2rem
     }
+    h3 {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
     p {
         font-size: 1.15rem;
         margin: 0.25rem 0 1.5rem;
@@ -523,4 +527,30 @@ footer > section {
         margin-top: 0;
         border-top-color: transparent;
     }
+}
+
+
+/*Image Styling*/
+
+.side-by-side-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    width: 100%;
+    gap: 1rem;
+    img {
+        max-height: 50vh;
+        margin: auto;
+    }
+}
+
+.column-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    img {
+        max-width: 100%;
+        max-height: 50vh;
+    }
+
 }
