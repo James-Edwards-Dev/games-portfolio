@@ -500,13 +500,13 @@ footer > section {
 
     > section {
         margin: auto;
-        padding: 4rem 4rem 2rem;
+        padding: 2rem 4rem;
         background: var(--bg-dark);
         min-height: 100svh;
         width: calc(-8rem + 80vw);
         max-width: 1000px;
     }
-    h1 {
+    section h1 {
         width: fit-content;
         margin: 0 auto;
         font-size: 3rem;
