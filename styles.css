@@ -448,12 +448,12 @@ footer > section {
     background: #2C2C2C;
     background: linear-gradient(31deg,rgba(44, 44, 44, 1) 0%, rgba(48, 48, 48, 1) 100%);
 
-    margin: 0 10vw;
-    section {
-        margin: 0 auto;
-        padding: 4rem;
+    > section {
+        margin: auto;
+        padding: 4rem 4rem 2rem;
         background: var(--bg-dark);
         min-height: 100svh;
+        width: calc(-8rem + 80vw);
         max-width: 1000px;
     }
     h1 {
@@ -467,5 +467,10 @@ footer > section {
     p {
         font-size: 1.15rem;
         margin: 0.25rem 0 1.5rem;
+    }
+
+    footer {
+        margin-top: 0;
+        border-top-color: transparent;
     }
 }
