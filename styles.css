@@ -555,5 +555,13 @@ footer > section {
         max-width: 100%;
         max-height: 50vh;
     }
+}
 
+.references {
+    p, a {
+        font-size: 1rem;
+    }
+    p {
+        margin: 1rem 0;
+    }
 }
