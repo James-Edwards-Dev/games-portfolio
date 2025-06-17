@@ -46,6 +46,11 @@ section {
     margin: 2rem 10vw;
 }
 
+td, th{
+    border: 0.15rem solid white;
+    padding: 0.5rem;
+}
+
 /* Header Styling */
 header {
     top: 0;
