@@ -23,6 +23,51 @@
     </iframe>
     <article>
         <h2>Introduction</h2>
+        <p>Procedural content generation is a field in game development where content such as 3D models, levels, etc are generated via the use of algorithms (Liu et al., 2019; Summerville et al., 2018). Many games such as Minecraft (Mojang, 2011), No Man's Sky (Hello Games, 2016) and Bad North (Stâlberg et al., 2018) use Procedural content generation. Procedural content generation is useful to game studios as it helps reduce the man-hours involved from artists and designers (Summerville et al., 2018) which allows the studio to reduce costs as well as increase the amount of content in a game. This will increase the replay ability of the game(Summerville et al., 2018).</p>
+        <p>This project explores the creation of a small video game that is centred around the use of procedural terrain generation. The achievement in this project is creating procedural generated terrain using two noise algorithms, Fractal Perlin Noise and Worley Noise. The Fractal Perlin noise algorithm was used in this project to create the base structure of the mesh as well as rocky formations in the terrain and the Worley Noise terrain was used to generate ridges in the terrain to enhance the detail of the terrain. These noise functions are showcased in 4 different levels in the game. Each level showcases a different noise technique. One level uses standard perlin noise, one uses fractal perlin noise, one uses Worley noise, and the final level uses a combination of fractal and perlin noise. An attempt was made to implement spline-based terrain generation into the project but not completed successfully. A physics-based character controller was also made in this project to allow the player to play the levels in the game.</p>
+        <p>This project is programmed in C++ using Unreal Engine 5</p>
+
+        <h3>Aim & Objectives</h3>
+        <p>The Aim of the project is to: Create a skiing game that uses procedural content generation (PCG) to generate the terrain and the levels.</p>
+        <p>Below is a table created at the start of this project listing the objectives that should be completed to achieve this aim.</p>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Objective Title</th>
+                <th>Objective Description</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Create procedural skiing mountain terrain using PCG techniques.</td>
+                <td>Create a mountain by first procedurally generating a heightmap using PCG techniques such as fractal
+                    perlin noise then applying this heightmap to an Unreal Engine Landscape.
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sculpt terrain using Unreal Engine Terrain Splines.</td>
+                <td>Create a procedurally generated spline path and then apply this path to the landscape generated in
+                    objective 1. This spline path can later be used in objective 4 and 5.
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Create a physics-based skiing character controller.</td>
+                <td>Create a physics-based skiing character controller that will ski down the procedural landscape.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Implement gameplay mechanics such as checkpoints, level start and finish and high score.</td>
+                <td>Add a start and finish line to the game as well as a checkpoints system to make a complete game.
+                    Also add a high score system that allows players to compete for the best time.
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Add polish to the game by adding a user interface</td>
+                <td>Add polish to the game by creating a main menu and a heads-up display.</td>
+            </tr>
+        </table>
 
         <div class="references">
             <h2>References</h2>
