@@ -106,7 +106,7 @@ header nav a:hover{
 footer {
     background: var(--bg-dark);
     border-top: var(--secondary-muted) solid 0.1rem;
-    min-height: 30vw;
+    min-height: 30svh;
     margin-top: 4rem;
 }
 
@@ -505,7 +505,7 @@ footer > section {
         margin: auto;
         padding: 2rem 4rem;
         background: var(--bg-dark);
-        min-height: 100svh;
+        min-height: 80svh;
         width: calc(-8rem + 80vw);
         max-width: 1000px;
     }
@@ -563,5 +563,28 @@ footer > section {
     }
     p {
         margin: 1rem 0;
+    }
+}
+
+.project-page-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    background: var(--bg-light);
+    border: gray solid 0.1rem;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    img {
+        vertical-align: middle;
+        width: 50px;
+    }
+    h3 {
+        margin: auto 0;
     }
 }
