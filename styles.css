@@ -631,9 +631,7 @@ footer > section {
     .projects-box{
         grid-template-columns: 1fr;
 
-        .card-container>img:first-of-type {
-            max-height: 50vh;
-        }
+        .card-container>img:first-of-type { max-height: 50vh; }
     }
 
 
