@@ -286,7 +286,7 @@ footer > section {
 
 .project-skills{
     display: flex;
-    margin-top: -3rem;
+    margin-top: -2.5rem;
     span{
         display: inline-flex;
         align-items: center;
@@ -303,7 +303,7 @@ footer > section {
         padding-right: 0.75rem;
     }
     img{
-        width: 2.5rem;
+        width: 2rem;
     }
 }
 
@@ -312,7 +312,7 @@ footer > section {
     justify-content: space-between;
     margin-top: auto;
     img {
-        width: 3rem;
+        width: 2.5rem;
     }
     .button:first-of-type{
         border-bottom-left-radius: 1.5rem;
@@ -587,4 +587,54 @@ footer > section {
     h3 {
         margin: auto 0;
     }
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 950px) {
+    .project-skills{
+        font-size: 0;
+        span {
+            gap: 0.25rem;
+            padding: 0.25rem 0;
+        }
+        span:last-of-type{ padding-right: 0.5rem; }
+        span:first-of-type{ padding-left: 0.5rem; }
+        img { width: 2rem; }
+    }
+    .project-links img { width: 2rem; }
+}
+
+@media screen and (max-width: 900px) {
+    .project-title{
+        margin: 0 0 0.5rem;
+        h3 {
+            padding: 0.5rem 1rem;
+            border-radius: 4rem;
+        }
+    }
+    .card-container { padding: 0.5rem 1rem 1rem;}
+}
+
+@media screen and (max-width: 850px) {
+    .project-links {
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+        a {
+            border-radius: 1.5rem;
+            padding: 0.25rem 0;
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .projects-box{
+        grid-template-columns: 1fr;
+
+        .card-container>img:first-of-type {
+            max-height: 50vh;
+        }
+    }
+
+
 }
