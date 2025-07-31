@@ -27,209 +27,209 @@
     </nav>
     <article>
         <p><a href="content/PDFs/The%20Development%20of%20a%20Video%20Game%20using%20Procedural%20Terrain%20Generation%20-%20James%20Edwards%202025.pdf">The website version of the write-up for this project is still being complete. If you would like more information on this project please view the full dissertation PDF.</a></p>
-        <h2>Introduction</h2>
-        <p>Procedural content generation is a field in game development where content such as 3D models, levels, etc are generated via the use of algorithms (Liu et al., 2019; Summerville et al., 2018). Many games such as Minecraft (Mojang, 2011), No Man's Sky (Hello Games, 2016) and Bad North (Stâlberg et al., 2018) use Procedural content generation. Procedural content generation is useful to game studios as it helps reduce the man-hours involved from artists and designers (Summerville et al., 2018) which allows the studio to reduce costs as well as increase the amount of content in a game. This will increase the replay ability of the game(Summerville et al., 2018).</p>
-        <p>This project explores the creation of a small video game that is centred around the use of procedural terrain generation. The achievement in this project is creating procedural generated terrain using two noise algorithms, Fractal Perlin Noise and Worley Noise. The Fractal Perlin noise algorithm was used in this project to create the base structure of the mesh as well as rocky formations in the terrain and the Worley Noise terrain was used to generate ridges in the terrain to enhance the detail of the terrain. These noise functions are showcased in 4 different levels in the game. Each level showcases a different noise technique. One level uses standard perlin noise, one uses fractal perlin noise, one uses Worley noise, and the final level uses a combination of fractal and perlin noise. An attempt was made to implement spline-based terrain generation into the project but not completed successfully. A physics-based character controller was also made in this project to allow the player to play the levels in the game.</p>
-        <p>This project is programmed in C++ using Unreal Engine 5</p>
+<!--        <h2>Introduction</h2>-->
+<!--        <p>Procedural content generation is a field in game development where content such as 3D models, levels, etc are generated via the use of algorithms (Liu et al., 2019; Summerville et al., 2018). Many games such as Minecraft (Mojang, 2011), No Man's Sky (Hello Games, 2016) and Bad North (Stâlberg et al., 2018) use Procedural content generation. Procedural content generation is useful to game studios as it helps reduce the man-hours involved from artists and designers (Summerville et al., 2018) which allows the studio to reduce costs as well as increase the amount of content in a game. This will increase the replay ability of the game(Summerville et al., 2018).</p>-->
+<!--        <p>This project explores the creation of a small video game that is centred around the use of procedural terrain generation. The achievement in this project is creating procedural generated terrain using two noise algorithms, Fractal Perlin Noise and Worley Noise. The Fractal Perlin noise algorithm was used in this project to create the base structure of the mesh as well as rocky formations in the terrain and the Worley Noise terrain was used to generate ridges in the terrain to enhance the detail of the terrain. These noise functions are showcased in 4 different levels in the game. Each level showcases a different noise technique. One level uses standard perlin noise, one uses fractal perlin noise, one uses Worley noise, and the final level uses a combination of fractal and perlin noise. An attempt was made to implement spline-based terrain generation into the project but not completed successfully. A physics-based character controller was also made in this project to allow the player to play the levels in the game.</p>-->
+<!--        <p>This project is programmed in C++ using Unreal Engine 5</p>-->
 
-        <h3>Aim & Objectives</h3>
-        <p>The Aim of the project is to: Create a skiing game that uses procedural content generation (PCG) to generate the terrain and the levels.</p>
-        <p>Below is a table created at the start of this project listing the objectives that should be completed to achieve this aim.</p>
-        <table>
-            <tr>
-                <th>No</th>
-                <th>Objective Title</th>
-                <th>Objective Description</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Create procedural skiing mountain terrain using PCG techniques.</td>
-                <td>Create a mountain by first procedurally generating a heightmap using PCG techniques such as fractal
-                    perlin noise then applying this heightmap to an Unreal Engine Landscape.
-                </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Sculpt terrain using Unreal Engine Terrain Splines.</td>
-                <td>Create a procedurally generated spline path and then apply this path to the landscape generated in
-                    objective 1. This spline path can later be used in objective 4 and 5.
-                </td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Create a physics-based skiing character controller.</td>
-                <td>Create a physics-based skiing character controller that will ski down the procedural landscape.</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Implement gameplay mechanics such as checkpoints, level start and finish and high score.</td>
-                <td>Add a start and finish line to the game as well as a checkpoints system to make a complete game.
-                    Also add a high score system that allows players to compete for the best time.
-                </td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Add polish to the game by adding a user interface</td>
-                <td>Add polish to the game by creating a main menu and a heads-up display.</td>
-            </tr>
-        </table>
+<!--        <h3>Aim & Objectives</h3>-->
+<!--        <p>The Aim of the project is to: Create a skiing game that uses procedural content generation (PCG) to generate the terrain and the levels.</p>-->
+<!--        <p>Below is a table created at the start of this project listing the objectives that should be completed to achieve this aim.</p>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>No</th>-->
+<!--                <th>Objective Title</th>-->
+<!--                <th>Objective Description</th>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td>1</td>-->
+<!--                <td>Create procedural skiing mountain terrain using PCG techniques.</td>-->
+<!--                <td>Create a mountain by first procedurally generating a heightmap using PCG techniques such as fractal-->
+<!--                    perlin noise then applying this heightmap to an Unreal Engine Landscape.-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td>2</td>-->
+<!--                <td>Sculpt terrain using Unreal Engine Terrain Splines.</td>-->
+<!--                <td>Create a procedurally generated spline path and then apply this path to the landscape generated in-->
+<!--                    objective 1. This spline path can later be used in objective 4 and 5.-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td>3</td>-->
+<!--                <td>Create a physics-based skiing character controller.</td>-->
+<!--                <td>Create a physics-based skiing character controller that will ski down the procedural landscape.</td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td>4</td>-->
+<!--                <td>Implement gameplay mechanics such as checkpoints, level start and finish and high score.</td>-->
+<!--                <td>Add a start and finish line to the game as well as a checkpoints system to make a complete game.-->
+<!--                    Also add a high score system that allows players to compete for the best time.-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td>5</td>-->
+<!--                <td>Add polish to the game by adding a user interface</td>-->
+<!--                <td>Add polish to the game by creating a main menu and a heads-up display.</td>-->
+<!--            </tr>-->
+<!--        </table>-->
 
-        <p><a href="content/PDFs/The%20Development%20of%20a%20Video%20Game%20using%20Procedural%20Terrain%20Generation%20-%20James%20Edwards%202025.pdf">The website version of the write-up for this project is still being complete. If you would like more information on this project please view the full dissertation PDF.</a></p>
-        <!--<h2>Noise Functions</h2>-->
-        <!--<p>This section will discuss the different noise functions used to shape the terrain mesh in this project.</p>-->
-        <!--<h3>Perlin Noise</h3>-->
+<!--        <p><a href="content/PDFs/The%20Development%20of%20a%20Video%20Game%20using%20Procedural%20Terrain%20Generation%20-%20James%20Edwards%202025.pdf">The website version of the write-up for this project is still being complete. If you would like more information on this project please view the full dissertation PDF.</a></p>-->
+<!--        &lt;!&ndash;<h2>Noise Functions</h2>&ndash;&gt;-->
+<!--        &lt;!&ndash;<p>This section will discuss the different noise functions used to shape the terrain mesh in this project.</p>&ndash;&gt;-->
+<!--        &lt;!&ndash;<h3>Perlin Noise</h3>&ndash;&gt;-->
 
-        <!--<h4>Fractal Perlin Noise</h4>-->
+<!--        &lt;!&ndash;<h4>Fractal Perlin Noise</h4>&ndash;&gt;-->
 
-        <!--<h3>Worley Noise</h3>-->
+<!--        &lt;!&ndash;<h3>Worley Noise</h3>&ndash;&gt;-->
 
-        <!--<h3>Combination of Noises</h3>-->
+<!--        &lt;!&ndash;<h3>Combination of Noises</h3>&ndash;&gt;-->
 
-        <nav class="project-page-links">
-            <h3>This project is available on:</h3>
-            <a href="https://github.com/James-Edwards-Dev/Procedural_Skier"><img src="content/icons/github-white.svg" alt="">Github</a>
-        </nav>
-        <div class="references">
-            <h2>References</h2>
-            <p>
-                42 YEAH., 2023. Worley and His Noise (Worley Noise/Voronoi Noise) [online]. Available from: <a href="https://blog.42yeah.is/rendering/noise/2023/09/23/voronoi">https://blog.42yeah.is/rendering/noise/2023/09/23/voronoi</a>.html [Accessed 4 May 2025].
-            </p>
+<!--        <nav class="project-page-links">-->
+<!--            <h3>This project is available on:</h3>-->
+<!--            <a href="https://github.com/James-Edwards-Dev/Procedural_Skier"><img src="content/icons/github-white.svg" alt="">Github</a>-->
+<!--        </nav>-->
+<!--        <div class="references">-->
+<!--            <h2>References</h2>-->
+<!--            <p>-->
+<!--                42 YEAH., 2023. Worley and His Noise (Worley Noise/Voronoi Noise) [online]. Available from: <a href="https://blog.42yeah.is/rendering/noise/2023/09/23/voronoi">https://blog.42yeah.is/rendering/noise/2023/09/23/voronoi</a>.html [Accessed 4 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                Blizzard Entertainment, 2016. Overwatch [online] Xbox: Blizzard Entertainment.
-            </p>
+<!--            <p>-->
+<!--                Blizzard Entertainment, 2016. Overwatch [online] Xbox: Blizzard Entertainment.-->
+<!--            </p>-->
 
-            <p>
-                CHUGANI, V., 2024. Understanding Euclidean Distance: From Theory to Practice [Online]. Available from: <a href="https://www.datacamp.com/tutorial/euclidean-distance">https://www.datacamp.com/tutorial/euclidean-distance</a> [Accessed 5 May 2025].
-            </p>
+<!--            <p>-->
+<!--                CHUGANI, V., 2024. Understanding Euclidean Distance: From Theory to Practice [Online]. Available from: <a href="https://www.datacamp.com/tutorial/euclidean-distance">https://www.datacamp.com/tutorial/euclidean-distance</a> [Accessed 5 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                DENHAM, T. N.d. What is UV Mapping & Unwrapping? [online]. Available from: <a href="https://conceptartempire.com/uv-mapping-unwrapping/">https://conceptartempire.com/uv-mapping-unwrapping/</a> [Accessed 4 May 2025].
-            </p>
+<!--            <p>-->
+<!--                DENHAM, T. N.d. What is UV Mapping & Unwrapping? [online]. Available from: <a href="https://conceptartempire.com/uv-mapping-unwrapping/">https://conceptartempire.com/uv-mapping-unwrapping/</a> [Accessed 4 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                DOGO'S SCIENCE 2., 2024. How Does Perlin Noise Work? [online]. Available from:
-                <a href="https://www.youtube.com/watch?v=9B89kwHvTN4">https://www.youtube.com/watch?v=9B89kwHvTN4</a>[Accessed 3 March 2025].
-            </p>
+<!--            <p>-->
+<!--                DOGO'S SCIENCE 2., 2024. How Does Perlin Noise Work? [online]. Available from:-->
+<!--                <a href="https://www.youtube.com/watch?v=9B89kwHvTN4">https://www.youtube.com/watch?v=9B89kwHvTN4</a>[Accessed 3 March 2025].-->
+<!--            </p>-->
 
-            <p>
-                DUNN, P. N.d. Hardware Perlin Noise Demonstration [online]. Available from: <a href="https://dunnbypaul.net/perlin/">https://dunnbypaul.net/perlin/</a> [Accessed 3 March 2025].
-            </p>
+<!--            <p>-->
+<!--                DUNN, P. N.d. Hardware Perlin Noise Demonstration [online]. Available from: <a href="https://dunnbypaul.net/perlin/">https://dunnbypaul.net/perlin/</a> [Accessed 3 March 2025].-->
+<!--            </p>-->
 
-            <p>
-                EPIC GAMES. N.d. FMath::PerlinNoise2D [online]. Available from: <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/Math/FMath/PerlinNoise2D">https://dev.epicgames.com/documentation/en-us/unreal- engine/API/Runtime/Core/Math/FMath/PerlinNoise2D</a> [Accessed 25 February 2025].
-            </p>
+<!--            <p>-->
+<!--                EPIC GAMES. N.d. FMath::PerlinNoise2D [online]. Available from: <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/Math/FMath/PerlinNoise2D">https://dev.epicgames.com/documentation/en-us/unreal- engine/API/Runtime/Core/Math/FMath/PerlinNoise2D</a> [Accessed 25 February 2025].-->
+<!--            </p>-->
 
-            <p>
-                ETHERINGTON, T. R., 2022. Perlin noise as a hierarchical neutral landscape model. Web Ecology. 22 (1), pp. 1–6. Available from: <a href="https://we.copernicus.org/articles/22/1/2022/">https://we.copernicus.org/articles/22/1/2022/</a>.
-            </p>
+<!--            <p>-->
+<!--                ETHERINGTON, T. R., 2022. Perlin noise as a hierarchical neutral landscape model. Web Ecology. 22 (1), pp. 1–6. Available from: <a href="https://we.copernicus.org/articles/22/1/2022/">https://we.copernicus.org/articles/22/1/2022/</a>.-->
+<!--            </p>-->
 
-            <p>
-                GOLUBEV, K., ZAGARSKIKH, A. and KARSAKOV, A., 2016. Dijkstra-based Terrain Generation Using Advanced Weight Functions. Procedia Computer Science. 101, pp. 152–160. Available from:<a href="https://www.sciencedirect.com/science/article/pii/S1877050916326862">https://www.sciencedirect.com/science/article/pii/S1877050916326862</a>.
-            </p>
+<!--            <p>-->
+<!--                GOLUBEV, K., ZAGARSKIKH, A. and KARSAKOV, A., 2016. Dijkstra-based Terrain Generation Using Advanced Weight Functions. Procedia Computer Science. 101, pp. 152–160. Available from:<a href="https://www.sciencedirect.com/science/article/pii/S1877050916326862">https://www.sciencedirect.com/science/article/pii/S1877050916326862</a>.-->
+<!--            </p>-->
 
-            <p>
-                GONOG, L. and ZHOU, Y., 2019. A Review: Generative Adversarial Networks. pp. 505– 510. GONZALEZ, P. and LOWE, J., 2015. Cellular Noise. Available from:<a href="https://thebookofshaders.com/12/">https://thebookofshaders.com/12/</a> [Accessed 3 May 2025].
-            </p>
+<!--            <p>-->
+<!--                GONOG, L. and ZHOU, Y., 2019. A Review: Generative Adversarial Networks. pp. 505– 510. GONZALEZ, P. and LOWE, J., 2015. Cellular Noise. Available from:<a href="https://thebookofshaders.com/12/">https://thebookofshaders.com/12/</a> [Accessed 3 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                HART, J. C. , 2001. Perlin noise pixel shaders New York, NY, USA: Association for Computing Machinery. pp. 87–94. Available from:<a href="https://doi.org/10.1145/383507.383531">https://doi.org/10.1145/383507.383531</a>.
-            </p>
+<!--            <p>-->
+<!--                HART, J. C. , 2001. Perlin noise pixel shaders New York, NY, USA: Association for Computing Machinery. pp. 87–94. Available from:<a href="https://doi.org/10.1145/383507.383531">https://doi.org/10.1145/383507.383531</a>.-->
+<!--            </p>-->
 
-            <p>
-                Hello Games, 2016. No Man's Sky [online] Steam: Hello Games. HUANG, Y. and YUAN, X., 2023. StyleTerrain: A novel disentangled generative model for controllable high-quality procedural terrain generation. Computers & Graphics. 116.
-            </p>
+<!--            <p>-->
+<!--                Hello Games, 2016. No Man's Sky [online] Steam: Hello Games. HUANG, Y. and YUAN, X., 2023. StyleTerrain: A novel disentangled generative model for controllable high-quality procedural terrain generation. Computers & Graphics. 116.-->
+<!--            </p>-->
 
-            <p>
-                HYTTINEN, T., MƒKINEN, E. and PORANEN, T., 2017. Terrain synthesis using noise by examples New York, NY, USA: Association for Computing Machinery. pp. 17–25. Available from: <a href="https://doi.org/10.1145/3131085.3131099">https://doi.org/10.1145/3131085.3131099</a>.
-            </p>
+<!--            <p>-->
+<!--                HYTTINEN, T., MƒKINEN, E. and PORANEN, T., 2017. Terrain synthesis using noise by examples New York, NY, USA: Association for Computing Machinery. pp. 17–25. Available from: <a href="https://doi.org/10.1145/3131085.3131099">https://doi.org/10.1145/3131085.3131099</a>.-->
+<!--            </p>-->
 
-            <p>
-                Ironhide Game Studio., 2013. Kingdom Rush: Frontiers [online]. Steam: Ironhide Game Studio.
-            </p>
+<!--            <p>-->
+<!--                Ironhide Game Studio., 2013. Kingdom Rush: Frontiers [online]. Steam: Ironhide Game Studio.-->
+<!--            </p>-->
 
-            <p>
-                JAIN, A., SHARMA, A. and RAJAN, K., S., 2024. Learning Based Infinite Terrain Generation with Level of Detailing. In: 2024 International Conference on 3D Vision (3DV). pp. 1048–1058.
-            </p>
+<!--            <p>-->
+<!--                JAIN, A., SHARMA, A. and RAJAN, K., S., 2024. Learning Based Infinite Terrain Generation with Level of Detailing. In: 2024 International Conference on 3D Vision (3DV). pp. 1048–1058.-->
+<!--            </p>-->
 
-            <p>
-                KORA, L., 2007. Implementation of Perlin Noise on GPU An Independent study [online]. Available from: <a href="https://www.sci.utah.edu/~leenak/IndStudy_reportfall/Perlin%20Noise%20on%20GPU.html">https://www.sci.utah.edu/~leenak/IndStudy_reportfall/Perlin%20Noise%20on%20GPU.html</a> [Accessed 5 May 2025].
-            </p>
+<!--            <p>-->
+<!--                KORA, L., 2007. Implementation of Perlin Noise on GPU An Independent study [online]. Available from: <a href="https://www.sci.utah.edu/~leenak/IndStudy_reportfall/Perlin%20Noise%20on%20GPU.html">https://www.sci.utah.edu/~leenak/IndStudy_reportfall/Perlin%20Noise%20on%20GPU.html</a> [Accessed 5 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                LAGUE, S., 2016. Procedural Landmass Generation (E01: Introduction) [online]. Available from: <a href="https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3">https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3</a> [Accessed 8 January 2025].
-            </p>
+<!--            <p>-->
+<!--                LAGUE, S., 2016. Procedural Landmass Generation (E01: Introduction) [online]. Available from: <a href="https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3">https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3</a> [Accessed 8 January 2025].-->
+<!--            </p>-->
 
-            <p>
-                LIU, S., CHAORAN, L., YUE, L., HENG, M., XIAO, H., YIMING, S., LICONG, W., ZE, C., XIANGHAO, G., HENGTONG, L., YU, D. and QINTING, T., 2019. Automatic generation of tower defense levels using PCG New York, NY, USA: Association for Computing Machinery.
-            </p>
+<!--            <p>-->
+<!--                LIU, S., CHAORAN, L., YUE, L., HENG, M., XIAO, H., YIMING, S., LICONG, W., ZE, C., XIANGHAO, G., HENGTONG, L., YU, D. and QINTING, T., 2019. Automatic generation of tower defense levels using PCG New York, NY, USA: Association for Computing Machinery.-->
+<!--            </p>-->
 
-            <p>
-                Medagon Industries, 2024. Lonely Mountains: Snow Riders [online] Steam: Medagon Industries.
-            </p>
+<!--            <p>-->
+<!--                Medagon Industries, 2024. Lonely Mountains: Snow Riders [online] Steam: Medagon Industries.-->
+<!--            </p>-->
 
-            <p>
-                Mojang, 2011. Minecraft [online] PC: Mojang.
-            </p>
+<!--            <p>-->
+<!--                Mojang, 2011. Minecraft [online] PC: Mojang.-->
+<!--            </p>-->
 
-            <p>
-                Ninja Kiwi, 2018. Bloons Tower Defense 6 [online] Steam: Ninja Kiwi.
-            </p>
+<!--            <p>-->
+<!--                Ninja Kiwi, 2018. Bloons Tower Defense 6 [online] Steam: Ninja Kiwi.-->
+<!--            </p>-->
 
-            <p>
-                PECH, A., LAM, C. P. and MASEK, M., 2020. Quantifiable Isovist and Graph-Based Measures for Automatic Evaluation of Different Area Types in Virtual Terrain Generation. IEEE Access. 8.
-            </p>
+<!--            <p>-->
+<!--                PECH, A., LAM, C. P. and MASEK, M., 2020. Quantifiable Isovist and Graph-Based Measures for Automatic Evaluation of Different Area Types in Virtual Terrain Generation. IEEE Access. 8.-->
+<!--            </p>-->
 
-            <p>
-                PECK, J., 2024. Fast Noise Lite [online]. Available from: <a href="https://github.com/Auburn/FastNoiseLite/tree/FastNoise-Legacy">https://github.com/Auburn/FastNoiseLite/tree/FastNoise-Legacy</a> [Accessed 4 May 2025].
-            </p>
+<!--            <p>-->
+<!--                PECK, J., 2024. Fast Noise Lite [online]. Available from: <a href="https://github.com/Auburn/FastNoiseLite/tree/FastNoise-Legacy">https://github.com/Auburn/FastNoiseLite/tree/FastNoise-Legacy</a> [Accessed 4 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                PERLIN, K., 1985. An image synthesizer. SIGGRAPH Comput.Graph. 19 (3), pp. 287– 296. Available from: https://doi.org/10.1145/325165.325247. RAOUF, T. N.d. Perlin Noise: A Procedural Generation Algorithm [online]. Available from:<a href="https://rtouti.github.io/graphics/perlin-noise-algorithm">https://rtouti.github.io/graphics/perlin-noise-algorithm</a> [Accessed 1 March 2025].
-            </p>
+<!--            <p>-->
+<!--                PERLIN, K., 1985. An image synthesizer. SIGGRAPH Comput.Graph. 19 (3), pp. 287– 296. Available from: https://doi.org/10.1145/325165.325247. RAOUF, T. N.d. Perlin Noise: A Procedural Generation Algorithm [online]. Available from:<a href="https://rtouti.github.io/graphics/perlin-noise-algorithm">https://rtouti.github.io/graphics/perlin-noise-algorithm</a> [Accessed 1 March 2025].-->
+<!--            </p>-->
 
-            <p>
-                RICHSTUBBSANIMATION., 2023. Easy and Quick Character Rigging in Blender - Blender Basics Tutorial [online]. Available from:<a href="https://www.youtube.com/watch?v=jIwrswJEFBQ">https://www.youtube.com/watch?v=jIwrswJEFBQ</a> [Accessed 8 March 2025].
-            </p>
+<!--            <p>-->
+<!--                RICHSTUBBSANIMATION., 2023. Easy and Quick Character Rigging in Blender - Blender Basics Tutorial [online]. Available from:<a href="https://www.youtube.com/watch?v=jIwrswJEFBQ">https://www.youtube.com/watch?v=jIwrswJEFBQ</a> [Accessed 8 March 2025].-->
+<!--            </p>-->
 
-            <p>
-                ROCKAM., 2020. Fast Noise Generator [online]. Available from: <a href="https://www.fab.com/listings/c1d444fc-54cc-4f11-8a4a-c0c41112a321">https://www.fab.com/listings/c1d444fc-54cc-4f11-8a4a-c0c41112a321</a> [Accessed 4 May 2025].
-            </p>
+<!--            <p>-->
+<!--                ROCKAM., 2020. Fast Noise Generator [online]. Available from: <a href="https://www.fab.com/listings/c1d444fc-54cc-4f11-8a4a-c0c41112a321">https://www.fab.com/listings/c1d444fc-54cc-4f11-8a4a-c0c41112a321</a> [Accessed 4 May 2025].-->
+<!--            </p>-->
 
-            <p>
-                STÂLBERG, O., MEREDITH, R., KVALE, M. and Plausible Concept., 2018. Bad North [online] Steam: Raw Fury.
-            </p>
+<!--            <p>-->
+<!--                STÂLBERG, O., MEREDITH, R., KVALE, M. and Plausible Concept., 2018. Bad North [online] Steam: Raw Fury.-->
+<!--            </p>-->
 
-            <p>
-                SU, S., XU, W., TANG, H., QIN, B. and WANG, X., 2024. Edge-protected IDW-based DEM detail enhancement and 3D terrain visualization. Computers & Graphics. 122.
-            </p>
+<!--            <p>-->
+<!--                SU, S., XU, W., TANG, H., QIN, B. and WANG, X., 2024. Edge-protected IDW-based DEM detail enhancement and 3D terrain visualization. Computers & Graphics. 122.-->
+<!--            </p>-->
 
-            <p>
-                SUMMERVILLE, A., SNODGRASS, S., GUZDIAL, M., HOLMG≈RD, C., HOOVER, A. K., ISAKSEN, A., NEALEN, A. and TOGELIUS, J., 2018. Procedural Content Generation via Machine Learning (PCGML). IEEE Transactions on Games. 10 (3), pp. 257–270.
-            </p>
+<!--            <p>-->
+<!--                SUMMERVILLE, A., SNODGRASS, S., GUZDIAL, M., HOLMG≈RD, C., HOOVER, A. K., ISAKSEN, A., NEALEN, A. and TOGELIUS, J., 2018. Procedural Content Generation via Machine Learning (PCGML). IEEE Transactions on Games. 10 (3), pp. 257–270.-->
+<!--            </p>-->
 
-            <p>
-                TUYTEL, R. N.d.a. Rock Ground 04 [online]. Available from: <a href="https://polyhaven.com/a/rocks_ground_04">https://polyhaven.com/a/rocks_ground_04</a> [Accessed 30 April 2025].
-            </p>
+<!--            <p>-->
+<!--                TUYTEL, R. N.d.a. Rock Ground 04 [online]. Available from: <a href="https://polyhaven.com/a/rocks_ground_04">https://polyhaven.com/a/rocks_ground_04</a> [Accessed 30 April 2025].-->
+<!--            </p>-->
 
-            <p>
-                TUYTEL, R. N.d.b. Snow 02 [online]. Available from: <a href="https://polyhaven.com/a/snow_02">https://polyhaven.com/a/snow_02</a> [Accessed 30 April 2025].
-            </p>
+<!--            <p>-->
+<!--                TUYTEL, R. N.d.b. Snow 02 [online]. Available from: <a href="https://polyhaven.com/a/snow_02">https://polyhaven.com/a/snow_02</a> [Accessed 30 April 2025].-->
+<!--            </p>-->
 
-            <p>
-                UNITY. N.d. Mathf.PerlinNoise [online]. Available from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html">https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html</a> [Accessed 7 January 2025].
-            </p>
+<!--            <p>-->
+<!--                UNITY. N.d. Mathf.PerlinNoise [online]. Available from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html">https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html</a> [Accessed 7 January 2025].-->
+<!--            </p>-->
 
-            <p>
-                WORLEY, S. , 1996. A cellular texture basis function New York, NY, USA: Association for Computing Machinery. pp. 291–294. Available from: <a href="https://doi.org/10.1145/237170.237267">https://doi.org/10.1145/237170.237267</a>.
-            </p>
+<!--            <p>-->
+<!--                WORLEY, S. , 1996. A cellular texture basis function New York, NY, USA: Association for Computing Machinery. pp. 291–294. Available from: <a href="https://doi.org/10.1145/237170.237267">https://doi.org/10.1145/237170.237267</a>.-->
+<!--            </p>-->
 
-        </div>
+<!--        </div>-->
 
-        <nav class="project-page-links">
-            <h3>This project is available on:</h3>
-            <a href="https://github.com/James-Edwards-Dev/Procedural_Skier"><img src="content/icons/github-white.svg" alt="">Github</a>
-        </nav>
+<!--        <nav class="project-page-links">-->
+<!--            <h3>This project is available on:</h3>-->
+<!--            <a href="https://github.com/James-Edwards-Dev/Procedural_Skier"><img src="content/icons/github-white.svg" alt="">Github</a>-->
+<!--        </nav>-->
 
     </article>
 </section>
