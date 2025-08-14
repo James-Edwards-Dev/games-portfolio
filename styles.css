@@ -418,7 +418,7 @@ footer > section {
 
 .certification-area{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 2rem;
     padding: 1rem;
     background-color: var(--bg-light);
@@ -428,7 +428,13 @@ footer > section {
     .cert{
         display: flex;
         flex-direction: column;
+        gap: 0.5rem;
         align-items: center;
+        max-width: 300px;
+        height: fit-content;
+        text-align: center;
+        text-wrap: pretty;
+        margin: auto 0;
     }
     img {
         aspect-ratio: 1 / 1;
